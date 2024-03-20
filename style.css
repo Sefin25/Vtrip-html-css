@@ -1,0 +1,173 @@
+body {
+	background-color: #B4D4FF ;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+header {
+	background-color: #EEF5FF ;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+ .logo {
+ 	color: #F6D776;
+ 	cursor: pointer;
+ }
+
+  .logo:hover {
+  	color: #B4D4FF;
+  	transform: scale(1.2);
+  	transition: all ease .5s;
+  }
+
+  nav ul {
+  	display: flex;
+  }
+
+  nav li {
+  	list-style: none;
+  	padding-right: 30px;
+  }
+
+  nav li a {
+  	text-decoration: none;
+  	color: ##F4F27E
+  }
+
+  nav li a:hover {
+  	  color: ##B4D4FF
+  	  text-decoration: underline;
+  	  text text-underline-offset: 8px;
+  }
+
+   .title-hero {
+   	   text-align: center;
+   	   padding-top: 50px;
+   	   padding-bottom: 30px;
+   }
+
+   .tile-hero h1 {
+   	  color: #F4F27E 
+   }
+
+   .title-hero p {
+   	color: black;
+   }
+
+
+
+
+
+    .image-hero img {
+    	display: block;
+    	width: 80%;
+    	margin: 0 auto;
+    	border-radius: 20px;
+    	box-shadow: 2px 4px 10px greenyellow;
+    }
+
+     .image-hero img:hover {
+     	transform: scale(.8);
+     	transition: 2s;
+     }
+
+    #about {
+    	width: 90%;
+    	margin: 0 auto;
+    }
+
+    #about h2 {
+    	padding-top: 40px;
+    	color: #F6D776;
+    }
+
+    hr {
+    	width: 30%;
+    }
+
+    #menu {
+    	width: 90%;
+    	margin: 0 auto;
+    }
+
+    #menu h2 {
+    	padding-top: 40px;
+    	color: #F6D776;
+    }
+
+    .cards {
+    	background-color: #6DB9EF;
+    	display: flex;
+    	flex-direction: row;
+    	align-items: center;
+    	flex-wrap: wrap;
+    	gap : 20px;
+    }
+
+    .card {
+    	padding: 20px;
+    	width: 300px;
+    	border: 1px solid blue;
+    	border-radius: 15px;
+    }
+
+    .card img {
+    	width: 80%;
+    }
+
+    .card img: hover {
+    	transform: scale(1.1);
+    	transition: .3s;
+    }
+
+    .container {
+    	text-align: center;
+    }
+
+    .card a {
+    	text-decoration: none;
+    	color: whitesmoke;
+    	margin-left: 105px:;
+    	border: 1px white;
+    	padding: 10px 40px;
+    	border-radius: 12px;
+    	box-shadow: 1px 2px 4px;
+    }
+
+    .card a:hover {
+    	background-color: #41C9E2;
+    	color: lightblue;
+    }
+
+    #contact {
+    	width: 95%;
+    	margin: 40px auto;
+    	display: flex;
+    	align-items: center;
+    	justify-content: space-between;
+    }
+
+    .image-contact {
+    	width: 100%
+    	border-radius: 50 ;
+    }
+
+footer {
+    	width: 95%;
+    	margin: 40px auto;
+    	background-color: whitesmoke
+    	padding: 20px;
+    	text-align: center;
+    }
+
+
+
+
+
+
+
